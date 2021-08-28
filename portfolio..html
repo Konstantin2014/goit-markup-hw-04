@@ -22,10 +22,18 @@
                <li class="item"><a href="" class="link">Контакты</a></li>
             </ul>
          </nav>      
-            <ul class="auth-nav list">
-               <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-               <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-            </ul>         
+         <ul class="auth-nav list">
+            <li class="item"><a href="mailto:info@devstudio.com" class="link">
+               <svg class="icon-header" width="16" height="12" >
+                  <use href="./images/symbol-defs.svg#icon-mail">
+                  </use>
+               </svg>info@devstudio.com</a></li>
+            <li class="item"><a href="tel:+380961111111" class="link">
+               <svg class="icon-header" width="10" height="16" >
+                  <use href="./images/symbol-defs.svg#icon-Phone">
+                  </use>
+               </svg>+38 096 111 11 11</a></li>
+         </ul>     
       </div>                     
    </header> 
 
@@ -34,23 +42,23 @@
             <div class="container">              
                <h2 class="visually-hidden">portfolio</h2>
                <ul class="portfolio-button">
-                  <li class="item"><button type="button" class="button-portfolio">Все</button></li>
-                  <li class="item"><button type="button" class="button-portfolio">Веб-сайты</button></li>
-                  <li class="item"><button type="button" class="button-portfolio">Приложения</button></li>
-                  <li class="item"><button type="button" class="button-portfolio">Дизайн</button></li>
-                  <li class="item"><button type="button" class="button-portfolio">Маркетинг</button></li>
+                  <li class="item-portfolio"><button type="button" class="button-portfolio">Все</button></li>
+                  <li class="item-portfolio"><button type="button" class="button-portfolio">Веб-сайты</button></li>
+                  <li class="item-portfolio"><button type="button" class="button-portfolio">Приложения</button></li>
+                  <li class="item-portfolio"><button type="button" class="button-portfolio">Дизайн</button></li>
+                  <li class="item-portfolio"><button type="button" class="button-portfolio">Маркетинг</button></li>
                </ul>      
                <ul class="image-portfolio">
-                  <li class="item">                     
-                        <div class="card-thumb">
+                  <li class="item-portfolio">                                     
+                        <div class="card-thumb">                           
                            <img src="images/img10.jpg" alt="Веб-сайт" width="370">
                         </div>
                         <div class="card-content">
                            <h3 class="portfolio-title">Технокряк</h3>
                            <p class="portfolio-text">Веб-сайт</p>
-                        </div>                     
+                        </div>                                       
                   </li>
-                  <li class="item">                    
+                  <li class="item-portfolio">                    
                         <div class="card-thumb">                                                
                            <img src="images/img11.jpg" alt="Постер New Orlean vs Golden Star" width="370">
                         </div>
@@ -59,7 +67,7 @@
                            <p class="portfolio-text">Дизайн</p>
                         </div>                    
                   </li>
-                  <li class="item">                    
+                  <li class="item-portfolio">                    
                         <div class="card-thumb"> 
                            <img src="images/img12.jpg" alt="Ресторан Seafood" width="370">
                         </div>
@@ -68,7 +76,7 @@
                            <p class="portfolio-text">Приложение</p>
                         </div>                     
                   </li>
-                  <li class="item">                     
+                  <li class="item-portfolio">                     
                         <div class="card-thumb"> 
                            <img src="images/img13.jpg" alt="Проект Prime" width="370">
                         </div>
@@ -77,7 +85,7 @@
                            <p class="portfolio-text">Маркетинг</p>
                         </div>                    
                   </li>
-                  <li class="item">                    
+                  <li class="item-portfolio">                    
                         <div class="card-thumb"> 
                            <img src="images/img14.jpg" alt="Проект Boxes" width="370">
                         </div>
@@ -86,7 +94,7 @@
                            <p class="portfolio-text">Приложение</p>
                         </div>                     
                   </li>
-                  <li class="item">                     
+                  <li class="item-portfolio">                     
                         <div class="card-thumb"> 
                            <img src="images/img15.jpg" alt="Inspiration has no Borders" width="370">
                         </div>
@@ -95,7 +103,7 @@
                            <p class="portfolio-text">Веб-сайт</p>
                         </div> 
                   </li>
-                  <li class="item">                    
+                  <li class="item-portfolio">                    
                         <div class="card-thumb"> 
                            <img src="images/img16.jpg" alt="Издание Limited Edition" width="370">
                         </div>
@@ -104,7 +112,7 @@
                            <p class="portfolio-text">Дизайн</p>
                         </div>                    
                   </li>
-                  <li class="item">                     
+                  <li class="item-portfolio">                     
                         <div class="card-thumb"> 
                            <img src="images/img17.jpg" alt="Проект LAB" width="370">
                         </div>
@@ -113,7 +121,7 @@
                            <p class="portfolio-text">Маркетинг</p>
                         </div>                    
                   </li>
-                  <li class="item">                    
+                  <li class="item-portfolio">                    
                         <div class="card-thumb"> 
                            <img src="images/img18.jpg" alt="Growing Business" width="370">
                         </div>
@@ -128,15 +136,54 @@
       </main>
       
       <footer class="footer">
-         <div class="container">                         
-            <a href="" class="logofooter"><span class="logo-footer">Web</span>Studio</a>
-            <address class="footer-nav">
-               <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-               <ul class="nav-footer">
-                  <li class="item-nav"><a href="mailto:info@devstudio.com" class="foter">info@devstudio.com</a></li>
-                  <li class="item-nav"><a href="tel:+380961111111" class="foter">+38 096 111 11 11</a></li>
-               </ul>                
-            </address>
+         <div class="container">
+            <div class="cont-footer">                      
+               <a href="" class="logofooter"><span class="logo-footer">Web</span>Studio</a>
+                  <address class="footer-nav">
+                     <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+                     <ul class="nav-footer">
+                        <li class="item-nav"><a href="mailto:info@devstudio.com" class="foter">info@devstudio.com</a></li>
+                        <li class="item-nav"><a href="tel:+380961111111" class="foter">+38 096 111 11 11</a></li>
+                     </ul>                
+                  </address>
+            </div>
+            <div class="footer-sosial">       
+               <h3 class="appeal-title">присоединяйтесь</h3>
+                  <ul class="sosial-list">
+                     <li class="sosial-items">
+                        <a class="social-link link" href="">
+                           <svg class="icon-social-footer" width="20" height="20" >
+                              <use href="./images/symbol-defs.svg#icon-instagram">
+                              </use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="sosial-items">
+                        <a href="" class="social-link">
+                           <svg class="icon-social-footer" width="20" height="16">
+                              <use href="./images/symbol-defs.svg#icon-twitter">
+                              </use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="sosial-items">
+                        <a href="" class="social-link">
+                           <svg class="icon-social-footer" width="20" height="30" >
+                              <use href="./images/symbol-defs.svg#icon-facebook">
+                              </use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="sosial-items">
+                        <a href="" class="social-link">
+                           <svg class="icon-social-footer" width="20" height="20" >
+                              <use href="./images/symbol-defs.svg#icon-linkedin">
+                              </use>
+                           </svg>
+                        </a>
+                     </li>
+                  </ul>
+            </div>
          </div>           
       </footer>
 </body>
